@@ -1,10 +1,10 @@
 # Site settings
-title: gengokumura
+title: emzah
 description: hello hello
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://emzah.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: whitebase
+github_username:  whitebase
 
 # Build settings
 markdown: kramdown
