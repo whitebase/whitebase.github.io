@@ -1,0 +1,84 @@
+/*  --------------------------------------------------------------------------
+    1-1. Basic
+    --------------------------------------------------------------------------  */
+body {
+  width: 100%;
+  //background-color: red;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  font-size: 1em;
+  font-weight: normal;
+}
+p{
+  font-size: 1em;
+}
+a:focus { outline: none; border: 0; }
+button::-moz-focus-inner { border: 0; }
+p,pre{
+    margin:0;
+}
+
+/* //////////////////////////////////////////////////////////////////////////
+ *  
+ * 2-0. Typography
+ *  
+ * ////////////////////////////////////////////////////////////////////////// */
+
+/* --------------------------------------------------------------------------
+   2-1. Font Family
+   -------------------------------------------------------------------------- */
+
+body {
+    font-family: 'Roboto Slab','ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS P Gothic', sans-serif;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern";
+    -webkit-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern=1";
+    -webkit-font-smoothing: subpixel-antialiased;/**/
+    -moz-font-smoothing: subpixel-antialiased;
+}
+
+@font-face {
+    font-family: 'Adobe Blank';
+    src: url('/_/font/AdobeBlank.eot'); /* IE9 Compat Modes */
+    src: url('/_/font/AdobeBlank.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/_/font/AdobeBlank.woff') format('woff'), /* Modern Browsers */
+       url('/_/font/AdobeBlank.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* --------------------------------------------------------------------------
+   1-1. Font Size
+   
+   62.5% = 10px    |    100%   = 16px |    137.5% = 22px |    175% = 28px
+   69%   = 11px    |    106%   = 17px |    144%   = 23px |    181% = 29px
+   75%   = 12px    |    112.5% = 18px |    150%   = 24px |    188% = 30px
+   81%   = 13px    |    119%   = 19px |    156%   = 25px |    194% = 31px
+   87.5% = 14px    |    125%   = 20px |    162%   = 26px |    200% = 32px
+   94%   = 15px    |    131%   = 21px |    168.5% = 27px
+
+   1-2. Line Height
+   font:10px line-heigh:12px font-size:  .625em; line-height: 1.200em;
+   font:11px line-heigh:16px font-size:  .69em;  line-height: 1.455em;
+   font:11px line-heigh:18px font-size:  .69em;  line-height: 1.636em;
+   font:11px line-heigh:19px font-size:  .69em;  line-height: 1.727em;
+   font:11px line-heigh:24px font-size:  .69em;  line-height: 2.182em;
+   font:12px line-heigh:18px font-size:  .75em;  line-height: 1.5em;
+   font:13px line-heigh:19px font-size:  .81em;  line-height: 1.462em;
+   font:13px line-heigh:24px font-size:  .81em;  line-height: 1.846em;
+   font:14px line-heigh:19px font-size:  .875em; line-height: 1.357em;
+   font:14px line-heigh:24px font-size:  .875em; line-height: 1.714em;
+   font:16px line-heigh:24px font-size: 1.000em; line-height: 1.500em;
+   font:18px line-heigh:28px font-size: 1.125em; line-height: 1.556em;
+   
+   -------------------------------------------------------------------------- */
+
+.x-large   { font-size: 139%; }
+.large     { font-size: 124%; }
+.mid       { font-size: 108%; }
+.small     { font-size:  93%; }
+.x-small   { font-size:  85%; }
+.xx-small  { font-size:  77%; }
